@@ -9,7 +9,7 @@ AudioPluginAudioProcessorEditor::AudioPluginAudioProcessorEditor (AudioPluginAud
     // Make sure that before the constructor has finished, you've set the
     // editor's size to whatever you need it to be.
 
-    / * Silder Init*/
+    /* Silder Init*/
     lowpassSlider.setSliderStyle(juce::Slider::SliderStyle::RotaryHorizontalVerticalDrag);
     lowpassSlider.setTextBoxStyle(juce::Slider::TextBoxBelow, true, 50, 25);
     lowpassSlider.setRange(0.0f, 400.0f, 1.0f);
